@@ -132,7 +132,9 @@ export default function Section1() {
                 <Box sx={{width: {xs: "100%", md:"47%"}, py:"10px",mt:{xs:"40px",md: "0px"}}}>
                   <Typography sx={{color: "gray"}}>our About us</Typography>
                   <Typography sx={{fontWeight: '900',m : '30px 50px 30px 0' , fontSize : {xs : "20px" , md : "35px"}}} variant='h4'>We Believe in pure and organic quality </Typography>
-                  <Typography sx={{color: "gray" ,fontSize:"12px"}}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. molestias, officia vel vero asperiores optio pariatur porro? Eligendi, beatae a. Distinctio rem architecto, error mollitia quis vero non beatae harum. Possimus corrupti, reiciendis fuga doloribus obcaecati magnam ipsa modi nemo quis, et cum sed ipsam dolorum! </Typography>
+                  <Typography sx={{ color: "gray", fontSize: "12px" }}>
+  Organic quality in furniture refers to the use of natural, sustainable materials like solid wood, bamboo, or reclaimed resources, crafted without harmful chemicals. These pieces are designed to be eco-friendly, non-toxic, and durable, promoting both health and environmental responsibility in interior spaces.
+</Typography>
 
                   <Box sx={{width : '100%', m: "30px 0"}}>
                     {AboutShipping.map((Ship)=><Box key={Ship.id} sx={{display : "flex" , m: "20px 0" }}>
