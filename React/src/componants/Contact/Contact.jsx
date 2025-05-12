@@ -67,6 +67,7 @@ const Contact = () => {
     </IconButton>
     <Typography variant='h6' fontSize="14px" >New York City, United States</Typography>
     <Typography variant='h6' fontSize="14px" >Egypt, Alexanderia</Typography>
+    <Typography variant='h6' fontSize="14px" >India</Typography>
 
 </Box>
 <Box sx={{width : "40%" , my : "10px"}}>
