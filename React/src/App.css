@@ -1,0 +1,247 @@
+:root {
+  --color-main: #ac8c5b;
+  --color-second: #fcc012;
+    --swiper-theme-color: #fcc012 !important;
+}
+
+/* This is for footer */
+
+
+.footer {
+  background-image: url(../public/Imgs/footer.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.profileIcon{
+  animation-name: rotate;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+.Sub {
+  background-image: url(../public/Imgs/Sub.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* This is for section1 */
+/* stoke font */
+.outline-text {
+  color: #f3f2ee;
+  text-shadow: 1px 0 0 black, 0 1px 0 black, -1px 0 0 black, 0 -1px 0 black;
+}
+
+.outline-Text {
+  color: #AC8C5B;
+  text-shadow: 1px 0 0 #FFF, 0 1px 0 #FFF, -1px 0 0 #FFF, 0 -1px 0 #FFF;
+}
+
+/* This is for productsection */
+
+.Card:hover .cardcontent {
+  height: fit-content;
+  padding-bottom: 10px;
+  transform: translateY(-24%);
+  transition: transform 1s;
+}
+
+.Card:hover .btn-tocart {
+  display: block;
+}
+
+
+.Card:hover {
+  border : 1px solid black ;
+  transition: transform 1s;
+}
+
+.Link-hover:hover {
+  color: #ac8c5b !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  border-radius: 100%;
+  border: 1px solid gray;
+  color: gray !important ;
+  width: 40px !important ;
+  height: 40px !important ;
+  position: absolute;
+  top: 25px !important ;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 30px !important;
+}
+
+.swiper-button-next {
+  right: 0 !important;
+}
+
+.swiper-button-prev {
+  left: calc(100% - 90px) !important ;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+
+@media screen and (max-width : 900px) {
+  .swiper-button-next::after , .swiper-button-prev::after  {
+    display: none;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+   display : none !important
+  }
+
+
+
+}
+
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color: #ac8c5b !important;
+  border : #ac8c5b !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+  background-color: #ac8c5b !important;
+}
+
+
+.DetailCover{
+  background-image: url(../public/Imgs/detailsCover.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.css-19kzrtu {
+  padding: 0px !important;
+}
+
+.css-1srw6kn-MuiInputBase-root-MuiInput-root::before {
+  border-bottom: 0 !important;
+}
+
+
+.colorPlaceholder::placeholder{
+  color:#ac8c5b
+}
+
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+@keyframes opacity {
+0%  {opacity: 0;};
+25%  {opacity: 0.2;};
+50%  {opacity: 0.5;};
+75%  {opacity: 0.7;};
+100% {opacity: 1;};
+}
+
+.copon{
+  animation: opacity 2s infinite;
+}
+
+
+
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+  padding: 12px !important;
+
+}
+
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+padding: 12px !important;
+border-radius:  20px !important;
+
+} 
+
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select{
+  padding: 12px !important;
+}
+
+.css-jcn4dz-MuiBadge-badge {
+  top: 25px !important;
+    right: 5px !important;
+    background-color: #fcc012 !important;
+    color:#000 !important ;
+    height: 23px !important;
+    border-radius: 15px !important;
+}
+
+/* to add border radius to material ui input */
+.MuiOutlinedInput-notchedOutline {
+  border-radius: 30px !important;
+}
+
+.carousel .carousel-status{
+  display:  none;
+}
+
+.carousel.carousel-slider .control-arrow {
+  top: 45% !important;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.css-19micn4-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color: #AC8C5B !important;
+}
+
+
+.ImageBack{
+  background-image: url(../public/Imgs/About/About\ background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed ;
+
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
